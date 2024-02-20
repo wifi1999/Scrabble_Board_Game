@@ -50,6 +50,17 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 - Listens for user interactions with buttons (play, reset, help, and end) and responds accordingly.
 
 
+### Server folder: 
+
+#### database class
+- This class serves as a simple storage system for word and game scores. It utilizes file I/O operations from the fs/promises module to read and write data to a JSON file, acting as a persistent storage medium. The class includes the following functionalities:
+- Save word and game scores
+- Retrieve the top 10 word and game scores
+- Reading and writing data.
+
+#### index.js
+- This file initializes and configures an Express server for handling word and game score data using the provided database.js. The file includes endpoints to save word and game scores, retrieve the top 10 word and game scores, and serves static files for the client.
+
 
 
 
