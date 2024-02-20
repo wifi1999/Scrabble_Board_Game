@@ -6,6 +6,8 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 
 ## Features
 
+## Client folder: 
+
 ### Game class 
 - The Game class in this project implements the logic for a Scrabble-like word game. It includes functionality for managing the game board, the tile bag, and player moves.
 - Board management: The class manages a 15x15 game board where players can place words horizontally or vertically.
@@ -14,21 +16,40 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 - Scoring: The class calculates the score for a played word, considering special tiles on the board.
 - Game State Persistence: The game state, including the board and tile bag, is persisted in the browser's local storage. This allows players to resume their game even after closing the browser.
 
-### Post Management
-- Users can create, like, and dislike posts.
-- Efficient post management is achieved through Express.js and MongoDB.
+### Rack class
+- The rack class in this project has following functionalities:
+- Display the current available tiles
+- Rmove a tile from rack
+- Takes tiles from game's bag and add them to the rack
+- Render and update rack in specified HTML elemenmt
 
-### User Interaction
-- Users can follow/unfollow other users.
-- Profile lookup and friends' friends access enhance user interactions.
+### scrabbleUtils.js 
+- This file contains utility functions for the Scrabble game, offering the following functionalities:
+- Check word construction
+- Compute scores
+- Validate words against a provided dictionary.
 
-### Real-time Chat
-- Socket.io is employed to establish a real-time chat system.
-- Users can exchange messages seamlessly, enhancing the overall user experience.
+### scoreboard class 
+- This class contains the implementation of three classes: WordScoreBoard, GameScoreBoard, and TopWordAndGameScoreBoard. These classes provide the following functionalities:
+- Manage and display word and game scores
+- Retrieve and render the top word and game scores from a server.
 
-### Responsive Design
-- React.js is utilized to craft aesthetically pleasing and responsive pages.
-- The application is designed to provide a seamless experience across different devices.
+### scoring class 
+- This class represents the scoring rules for the Scrabble board. It includes the following methods:
+- Initialize the board
+- Calculate the score for a given word
+- Generate a label for the multiplier at a specific board position. 
+- Exports a mapping of letter scores and an array of position multipliers.
+
+### Main.js 
+- The main.js file in this project serves as the main script for the Scrabble-like word game. It orchestrates the interaction between the game logic, UI components, player turns, and scoring. Here's a breakdown of the main functionalities:
+- Imports necessary modules, including the Game class, Rack class, and utility function
+- Sets up UI components using DOM elements.
+- Creates and renders the game board using the Game class.
+- Initializes and renders player racks.
+- Listens for user interactions with buttons (play, reset, help, and end) and responds accordingly.
+
+
 
 
 
