@@ -8,7 +8,7 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 
 ## Client folder: 
 
-### Game class 
+#### Game class 
 - The Game class in this project implements the logic for a Scrabble-like word game. It includes functionality for managing the game board, the tile bag, and player moves.
 - Board management: The class manages a 15x15 game board where players can place words horizontally or vertically.
 - Tile bag: The class includes a tile bag with letter frequencies based on Scrabble rules. Players can draw tiles from this bag during the game.
