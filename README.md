@@ -64,6 +64,8 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 
 
 
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -71,58 +73,26 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 Make sure you have the following installed on your machine:
 
 - Node.js
-- MongoDB
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-      git clone github.com/wifi1999/Kusiday_Deploy.git
+      git clone github.com/wifi1999/Score_Board_Game
 
 2. Install the dependencies:  
    ```bash
-      cd api
-      npm install
-   ```
-   ```bash 
-      cd cliet
-      npm install
-   ```
-   ```bash
-      cd socket
+      cd server 
       npm install
    ```
    
-3. Create Environmental Variables: 
+3. Starting the Application: 
 ```bash
-   cd api 
-   touch .env
-   MONGO_URL=your_mongodb_connection_url # insert this line to the .env file
-``` 
-```bash
-   cd client
-   touch .env
-   REACT_APP_PUBLIC_FOLDER=http://localhost:8080/images # insert this line to the .env file
-```
-
-4. Starting the Application: 
-```bash
-   cd api
+   cd server
    npm run dev
 ```
-   The server will run on http://localhost:8080.
-
-```bash
-   cd socket
-   npm run dev
-```
-   The server will run on http://localhost:8900.
-
-```bash
-   cd frontend
-   npm start
-```
-   The Server will run on http://localhost:3000.
+   The server will run on http://localhost:3000.
+   
 
 ### Open your browser and go to http://localhost:3000 to use the application. Enjoy!
 
