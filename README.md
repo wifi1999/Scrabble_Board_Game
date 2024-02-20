@@ -16,32 +16,32 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 - Scoring: The class calculates the score for a played word, considering special tiles on the board.
 - Game State Persistence: The game state, including the board and tile bag, is persisted in the browser's local storage. This allows players to resume their game even after closing the browser.
 
-### Rack class
+#### Rack class
 - The rack class in this project has following functionalities:
 - Display the current available tiles
 - Rmove a tile from rack
 - Takes tiles from game's bag and add them to the rack
 - Render and update rack in specified HTML elemenmt
 
-### scrabbleUtils.js 
+#### scrabbleUtils.js 
 - This file contains utility functions for the Scrabble game, offering the following functionalities:
 - Check word construction
 - Compute scores
 - Validate words against a provided dictionary.
 
-### scoreboard class 
+#### scoreboard class 
 - This class contains the implementation of three classes: WordScoreBoard, GameScoreBoard, and TopWordAndGameScoreBoard. These classes provide the following functionalities:
 - Manage and display word and game scores
 - Retrieve and render the top word and game scores from a server.
 
-### scoring class 
+#### scoring class 
 - This class represents the scoring rules for the Scrabble board. It includes the following methods:
 - Initialize the board
 - Calculate the score for a given word
 - Generate a label for the multiplier at a specific board position. 
 - Exports a mapping of letter scores and an array of position multipliers.
 
-### Main.js 
+#### Main.js 
 - The main.js file in this project serves as the main script for the Scrabble-like word game. It orchestrates the interaction between the game logic, UI components, player turns, and scoring. Here's a breakdown of the main functionalities:
 - Imports necessary modules, including the Game class, Rack class, and utility function
 - Sets up UI components using DOM elements.
