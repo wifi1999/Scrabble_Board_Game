@@ -4,9 +4,9 @@
 
 Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provides an immersive and competitive word-building experience for two players. Developed with a focus on object-oriented principles, this application offers a dynamic and engaging gameplay environment.
 
-## Features
+## Project Structure: 
 
-## Client folder: 
+### Client folder: 
 
 #### Game class 
 - The Game class in this project implements the logic for a Scrabble-like word game. It includes functionality for managing the game board, the tile bag, and player moves.
