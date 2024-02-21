@@ -6,7 +6,7 @@ Welcome to the Scrabble Game repository! This full-stack Scrabble Game App provi
 
 ## Video Demo
 
-Demo.mp4 
+[Demo.mp4 ](https://github.com/wifi1999/Score_Board_Game/blob/master/Demo.mp4)
 
 ## Project Structure: 
 
